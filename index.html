@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="/logo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stratix - Enterprise-Grade Framework for Production</title>
+  <meta name="description"
+    content="Enterprise-grade framework for building scalable, maintainable applications. Production-ready with Domain-Driven Design, hexagonal architecture, CQRS, type safety, and AI agents as first-class citizens." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Theme Toggle -->
+  <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+
+    <svg class="sun-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2" />
+      <path
+        d="M12 1V3M12 21V23M23 12H21M3 12H1M20.071 20.071L18.657 18.657M5.343 5.343L3.929 3.929M20.071 3.929L18.657 5.343M5.343 18.657L3.929 20.071"
+        stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+    </svg>
+    <svg class="moon-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+  </button>
+
+  <div id="app">
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="nav-content">
+        <div class="nav-logo">
+          <img src="/assets/black-no-bg.png" alt="Stratix" class="nav-logo-img" id="nav-logo">
+          <span class="nav-logo-text">Stratix</span>
+        </div>
+        <div class="nav-links">
+          <a href="https://stratix-dev.github.io/stratix/" target="_blank" rel="noopener noreferrer">Documentation</a>
+          <a href="https://github.com/stratix-dev/stratix" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          <span>Production-Ready Framework</span>
+        </div>
+        <h1 class="title">AI-First TypeScript Framework<br />for Enterprise Applications</h1>
+        <p class="subtitle">Build modular, scalable systems with DDD, CQRS, and hexagonal architecture. Type-safe development with AI agents as first-class citizens.</p>
+        <div class="cta-buttons">
+          <a href="https://stratix-dev.github.io/stratix/" class="btn btn-primary" target="_blank"
+            rel="noopener noreferrer">
+            <span>Get Started</span>
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </a>
+          <a href="https://github.com/stratix-dev/stratix" class="btn btn-secondary" target="_blank"
+            rel="noopener noreferrer">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M10 0C4.477 0 0 4.477 0 10c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0110 4.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C17.137 18.165 20 14.418 20 10c0-5.523-4.477-10-10-10z" />
+            </svg>
+            <span>View on GitHub</span>
+          </a>
+        </div>
+
+        <!-- Trust Indicators -->
+        <div class="trust-indicators">
+          <div class="trust-item">
+            <div class="trust-icon">✓</div>
+            <span>Type-Safe</span>
+          </div>
+          <div class="trust-item">
+            <div class="trust-icon">✓</div>
+            <span>Enterprise Patterns</span>
+          </div>
+          <div class="trust-item">
+            <div class="trust-icon">✓</div>
+            <span>Production Ready</span>
+          </div>
+        </div>
+
+        <!-- Pre-release Notice -->
+        <div class="hero-notice">
+          <span class="notice-icon">⚠️</span>
+          <span>Pre-release: API may change until version 1.0.0</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Quick Start Section -->
+    <section class="quick-start">
+      <div class="quick-start-content">
+        <div class="section-header">
+          <h2>Get Started in Minutes</h2>
+          <p>Install Stratix CLI and scaffold your enterprise application</p>
+        </div>
+        <div class="code-block">
+          <div class="code-header">
+            <span class="code-title">Terminal</span>
+            <button class="code-copy" aria-label="Copy code">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="5" y="5" width="9" height="9" rx="1" stroke="currentColor" stroke-width="1.5" />
+                <path d="M3 11V3C3 2.44772 3.44772 2 4 2H11" stroke="currentColor" stroke-width="1.5" />
+              </svg>
+            </button>
+          </div>
+          <pre><code><span class="comment"># Install CLI</span>
+npm install -g @stratix/cli
+
+<span class="comment"># Create project</span>
+stratix new my-app
+
+<span class="comment"># Generate bounded context</span>
+cd my-app
+stratix generate context Products --props "name:string,price:number,stock:number"
+
+<span class="comment"># Start developing</span>
+npm run dev</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <img src="/assets/black-no-bg.png" alt="Stratix" class="footer-logo" id="footer-logo">
+            <span class="footer-brand-text">Stratix</span>
+          </div>
+          <div class="footer-links">
+            <a href="https://stratix-dev.github.io/stratix/" target="_blank" rel="noopener noreferrer">Documentation</a>
+            <a href="https://github.com/stratix-dev/stratix" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://github.com/stratix-dev/stratix/blob/main/CHANGELOG.md" target="_blank"
+              rel="noopener noreferrer">Changelog</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p class="copyright">© 2025 Stratix. Open source under MIT License.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
