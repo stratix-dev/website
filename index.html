@@ -118,89 +118,17 @@
           <pre><code><span class="comment"># Install CLI</span>
 npm install -g @stratix/cli
 
-<span class="comment"># Create project with single context structure</span>
-stratix new product-api --structure single-context
+<span class="comment"># Create project</span>
+stratix new my-ai-app --with-ai openai
+cd my-ai-app
+
+<span class="comment"># Configure environment variables</span>
+export OPENAI_API_KEY='your-api-key-here'
 
 <span class="comment"># Install dependencies</span>
-cd product-api
-npm i
+npm install
 <span class="comment"># Start developing</span>
 npm run dev</code></pre>
-        </div>
-      </div>
-    </section>
-
-    <!-- Stratix Copilot Section -->
-    <section class="copilot-section">
-      <div class="copilot-content">
-        <div class="section-header">
-          <h2>Accelerate Development with AI</h2>
-          <p>Stratix Copilot: AI-powered coding assistant for faster, smarter development</p>
-        </div>
-        <div class="copilot-features">
-          <div class="copilot-feature">
-            <div class="feature-icon">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-                <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-                <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-              </svg>
-            </div>
-            <h3>Context-Aware AI</h3>
-            <p>Understands your project structure and Stratix patterns</p>
-          </div>
-          <div class="copilot-feature">
-            <div class="feature-icon">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2" />
-                <path d="M9 9L15 15M15 9L9 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-              </svg>
-            </div>
-            <h3>Smart Code Generation</h3>
-            <p>Generate entities, commands, queries, and value objects instantly</p>
-          </div>
-          <div class="copilot-feature">
-            <div class="feature-icon">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" />
-                <path d="M12 6V12L16 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-              </svg>
-            </div>
-            <h3>RAG-Enhanced</h3>
-            <p>Retrieves relevant documentation for accurate responses</p>
-          </div>
-        </div>
-        <div class="code-block">
-          <div class="code-header">
-            <span class="code-title">VS Code Copilot Chat</span>
-            <button class="code-copy" aria-label="Copy code">
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="5" y="5" width="9" height="9" rx="1" stroke="currentColor" stroke-width="1.5" />
-                <path d="M3 11V3C3 2.44772 3.44772 2 4 2H11" stroke="currentColor" stroke-width="1.5" />
-              </svg>
-            </button>
-          </div>
-          <pre><code><span class="comment"># Generate a complete entity</span>
-@stratix /entity Product with name, price, and category
-
-<span class="comment"># Generate CQRS command with handler</span>
-@stratix /command CreateProduct with productId, name, price
-
-<span class="comment"># Generate query with handler</span>
-@stratix /query GetProductById with productId
-
-<span class="comment"># Ask about Stratix patterns</span>
-@stratix how do I implement a repository with PostgreSQL?</code></pre>
-        </div>
-        <div class="copilot-cta">
-          <a href="https://stratix-dev.github.io/stratix/docs/stratix-copilot/overview" class="btn btn-primary"
-            target="_blank" rel="noopener noreferrer">
-            <span>Learn About Stratix Copilot</span>
-            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round" />
-            </svg>
-          </a>
         </div>
       </div>
     </section>
